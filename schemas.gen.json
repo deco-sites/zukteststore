@@ -102,6 +102,18 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
+              "deco-sites/std/sections/Analytics.tsx",
+              "deco-sites/std/sections/configButterCMS.global.tsx",
+              "deco-sites/std/sections/configLinxImpulse.global.tsx",
+              "deco-sites/std/sections/configNuvemShop.tsx",
+              "deco-sites/std/sections/configOCC.global.tsx",
+              "deco-sites/std/sections/configShopify.global.tsx",
+              "deco-sites/std/sections/configVTEX.global.tsx",
+              "deco-sites/std/sections/configYourViews.global.tsx",
+              "deco-sites/std/sections/SEO.tsx",
+              "deco-sites/std/sections/SEOPDP.tsx",
+              "deco-sites/std/sections/SEOPLP.tsx",
+              "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
               "deco-sites/zukteststore/sections/Category/CategoryBanner.tsx",
               "deco-sites/zukteststore/sections/Category/CategoryList.tsx",
               "deco-sites/zukteststore/sections/Content/Benefits.tsx",
@@ -126,18 +138,6 @@
               "deco-sites/zukteststore/sections/Social/InstagramPosts.tsx",
               "deco-sites/zukteststore/sections/Social/WhatsApp.tsx",
               "deco-sites/zukteststore/sections/Theme/Theme.tsx",
-              "deco-sites/std/sections/Analytics.tsx",
-              "deco-sites/std/sections/configButterCMS.global.tsx",
-              "deco-sites/std/sections/configLinxImpulse.global.tsx",
-              "deco-sites/std/sections/configNuvemShop.tsx",
-              "deco-sites/std/sections/configOCC.global.tsx",
-              "deco-sites/std/sections/configShopify.global.tsx",
-              "deco-sites/std/sections/configVTEX.global.tsx",
-              "deco-sites/std/sections/configYourViews.global.tsx",
-              "deco-sites/std/sections/SEO.tsx",
-              "deco-sites/std/sections/SEOPDP.tsx",
-              "deco-sites/std/sections/SEOPLP.tsx",
-              "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
               "$live/matchers/MatchAlways.ts",
               "$live/matchers/MatchCron.ts",
               "$live/matchers/MatchDate.ts",
@@ -10075,7 +10075,7 @@
       "required": [],
       "title": "Props"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent": {
       "type": "object",
       "properties": {
         "displayName": {
@@ -10106,37 +10106,37 @@
       "required": [],
       "title": "FunctionComponent"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer": {
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "properties": {},
       "required": [],
       "title": "Consumer"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider": {
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "properties": {},
       "required": [],
       "title": "Provider"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context": {
       "type": "object",
       "properties": {
         "Consumer": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer",
           "title": " Consumer"
         },
         "Provider": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider",
           "title": " Provider"
         },
         "displayName": {
@@ -10153,7 +10153,7 @@
       ],
       "title": "Context"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass": {
       "type": "object",
       "properties": {
         "displayName": {
@@ -10167,28 +10167,28 @@
           "title": "Default Props"
         },
         "contextType": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context",
           "title": "Context Type"
         }
       },
       "required": [],
       "title": "ComponentClass"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "title": "ComponentClass|FunctionComponent"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent"
         },
         {
           "type": "string"
@@ -10196,10 +10196,10 @@
       ],
       "title": "ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren": {
       "title": "ComponentChildren"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject": {
       "type": "object",
       "properties": {
         "current": {
@@ -10219,16 +10219,16 @@
       ],
       "title": "RefObject"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback": {
       "title": "RefCallback"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback"
         },
         {
           "type": "null"
@@ -10236,10 +10236,10 @@
       ],
       "title": "RefCallback|RefObject|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null"
         },
         {
           "type": "null"
@@ -10247,11 +10247,11 @@
       ],
       "title": "RefCallback|RefObject|null|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode": {
       "type": "object",
       "properties": {
         "type": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890",
           "title": "Type"
         },
         "props": {
@@ -10263,7 +10263,7 @@
               "type": "object",
               "properties": {
                 "children": {
-                  "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren",
+                  "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren",
                   "title": "Children"
                 }
               },
@@ -10289,7 +10289,7 @@
           "title": "Key"
         },
         "ref": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null",
           "title": "Ref"
         },
         "startTime": {
@@ -10314,10 +10314,10 @@
       ],
       "title": "VNode"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode"
         },
         {
           "type": "object"
@@ -10343,20 +10343,20 @@
       ],
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
+        "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
       },
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
         }
       ],
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
@@ -10373,7 +10373,7 @@
           "title": "Searchbar"
         },
         "children": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]",
           "title": "Children"
         }
       },
@@ -11118,10 +11118,260 @@
       ],
       "title": "deco-cx/deco/sections/UseSlot.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "trackingIds": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": "google tag manager container id. For more info: https://developers.google.com/tag-platform/tag-manager/web#standard_web_page_installation .",
+          "title": "Tracking Ids"
+        },
+        "googleAnalyticsIds": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title": "GA Measurement Ids",
+          "label": "measurement id",
+          "description": "the google analytics property measurement id. For more info: https://support.google.com/analytics/answer/9539598"
+        },
+        "src": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "custom url for serving google tag manager. Set either this url or the tracking id",
+          "title": "Src"
+        },
+        "dangerouslyRunOnMainThread": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "run GTM directly on the main thread, without Partytown. This is useful for debugging purposes. Default: false",
+          "title": "Dangerously Run On Main Thread"
+        }
+      },
+      "required": [],
+      "title": "deco-sites/std/components/Analytics.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image": {
       "type": "string",
       "format": "image-uri",
       "title": "Image"
+    },
+    "ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null|ProductListingPage|null": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductListingPage|null"
+        }
+      ],
+      "title": "ProductDetailsPage|null|ProductListingPage|null"
+    },
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vdHlwZXMudHM=@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title"
+        },
+        "titleTemplate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title template",
+          "description": "add a %s whenever you want it to be replaced with the category name or search term",
+          "default": "%s | Deco.cx"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Description"
+        },
+        "type": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": "website",
+              "default": "website"
+            },
+            {
+              "type": "string",
+              "const": "article",
+              "default": "article"
+            }
+          ],
+          "type": "string",
+          "default": "website",
+          "title": "Type"
+        },
+        "image": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "description": "Recommended: 1200 x 630 px (up to 5MB)",
+          "title": "Image"
+        },
+        "favicon": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "description": "Recommended: 16 x 16 px",
+          "title": "Favicon"
+        },
+        "themeColor": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Suggested color that browsers should use to customize the display of the page or of the surrounding user interface",
+          "title": "Theme Color"
+        },
+        "canonical": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Canonical URL"
+        },
+        "noIndexNoFollow": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "title": "Disable indexing",
+          "description": "In testing, you can use this to prevent search engines from indexing your site"
+        },
+        "context": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null|ProductListingPage|null",
+          "title": "Context"
+        }
+      },
+      "required": [],
+      "title": "deco-sites/std/components/seo/types.ts@Props"
+    },
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUERQLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "titleTemplate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title template",
+          "description": "add a %s whenever you want it to be replaced with the product name",
+          "default": "%s | Deco.cx"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Page title override"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Meta tag description override"
+        },
+        "favicon": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "description": "Recommended: 16 x 16 px",
+          "title": "Favicon"
+        },
+        "page": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null",
+          "title": "Page"
+        },
+        "structuredData": {
+          "type": "object",
+          "properties": {
+            "useDataFromSEO": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "title": "Use Data From S E O"
+            }
+          },
+          "required": [],
+          "title": "Structured Data"
+        }
+      },
+      "required": [
+        "page"
+      ],
+      "title": "deco-sites/std/components/seo/SEOPDP.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUExQLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductListingPage|null",
+          "title": "Page"
+        },
+        "titleTemplate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title template",
+          "description": "add a %s whenever you want it to be replaced with the product name",
+          "default": "%s | Deco.cx"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Page Title override"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Metatag description override"
+        },
+        "favicon": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "description": "Recommended: 16 x 16 px",
+          "title": "Favicon"
+        }
+      },
+      "required": [
+        "page"
+      ],
+      "title": "deco-sites/std/components/seo/SEOPLP.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4@LoaderProps": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvZnVuY3Rpb25zL3JlcXVlc3RUb1BhcmFtLnRz@RequestURLParam",
+          "title": "Slug"
+        }
+      },
+      "required": [
+        "slug"
+      ],
+      "title": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx@LoaderProps"
     },
     "ZGVjby1zaXRlcy96dWt0ZXN0c3RvcmUvY29tcG9uZW50cy91aS9DYXRlZ29yeUJhbm5lci50c3g=@Banner": {
       "type": "object",
@@ -15002,256 +15252,6 @@
       "required": [],
       "title": "deco-sites/zukteststore/sections/Theme/Theme.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props": {
-      "type": "object",
-      "properties": {
-        "trackingIds": {
-          "type": "array",
-          "items": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "description": "google tag manager container id. For more info: https://developers.google.com/tag-platform/tag-manager/web#standard_web_page_installation .",
-          "title": "Tracking Ids"
-        },
-        "googleAnalyticsIds": {
-          "type": "array",
-          "items": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "title": "GA Measurement Ids",
-          "label": "measurement id",
-          "description": "the google analytics property measurement id. For more info: https://support.google.com/analytics/answer/9539598"
-        },
-        "src": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "custom url for serving google tag manager. Set either this url or the tracking id",
-          "title": "Src"
-        },
-        "dangerouslyRunOnMainThread": {
-          "type": [
-            "boolean",
-            "null"
-          ],
-          "description": "run GTM directly on the main thread, without Partytown. This is useful for debugging purposes. Default: false",
-          "title": "Dangerously Run On Main Thread"
-        }
-      },
-      "required": [],
-      "title": "deco-sites/std/components/Analytics.tsx@Props"
-    },
-    "ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null|ProductListingPage|null": {
-      "anyOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null"
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductListingPage|null"
-        }
-      ],
-      "title": "ProductDetailsPage|null|ProductListingPage|null"
-    },
-    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vdHlwZXMudHM=@Props": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title"
-        },
-        "titleTemplate": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title template",
-          "description": "add a %s whenever you want it to be replaced with the category name or search term",
-          "default": "%s | Deco.cx"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Description"
-        },
-        "type": {
-          "anyOf": [
-            {
-              "type": "string",
-              "const": "website",
-              "default": "website"
-            },
-            {
-              "type": "string",
-              "const": "article",
-              "default": "article"
-            }
-          ],
-          "type": "string",
-          "default": "website",
-          "title": "Type"
-        },
-        "image": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
-          "description": "Recommended: 1200 x 630 px (up to 5MB)",
-          "title": "Image"
-        },
-        "favicon": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
-          "description": "Recommended: 16 x 16 px",
-          "title": "Favicon"
-        },
-        "themeColor": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Suggested color that browsers should use to customize the display of the page or of the surrounding user interface",
-          "title": "Theme Color"
-        },
-        "canonical": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Canonical URL"
-        },
-        "noIndexNoFollow": {
-          "type": [
-            "boolean",
-            "null"
-          ],
-          "title": "Disable indexing",
-          "description": "In testing, you can use this to prevent search engines from indexing your site"
-        },
-        "context": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null|ProductListingPage|null",
-          "title": "Context"
-        }
-      },
-      "required": [],
-      "title": "deco-sites/std/components/seo/types.ts@Props"
-    },
-    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUERQLnRzeA==@Props": {
-      "type": "object",
-      "properties": {
-        "titleTemplate": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title template",
-          "description": "add a %s whenever you want it to be replaced with the product name",
-          "default": "%s | Deco.cx"
-        },
-        "title": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Page title override"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Meta tag description override"
-        },
-        "favicon": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
-          "description": "Recommended: 16 x 16 px",
-          "title": "Favicon"
-        },
-        "page": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductDetailsPage|null",
-          "title": "Page"
-        },
-        "structuredData": {
-          "type": "object",
-          "properties": {
-            "useDataFromSEO": {
-              "type": [
-                "boolean",
-                "null"
-              ],
-              "title": "Use Data From S E O"
-            }
-          },
-          "required": [],
-          "title": "Structured Data"
-        }
-      },
-      "required": [
-        "page"
-      ],
-      "title": "deco-sites/std/components/seo/SEOPDP.tsx@Props"
-    },
-    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUExQLnRzeA==@Props": {
-      "type": "object",
-      "properties": {
-        "page": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvdHlwZXMudHM=@ProductListingPage|null",
-          "title": "Page"
-        },
-        "titleTemplate": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title template",
-          "description": "add a %s whenever you want it to be replaced with the product name",
-          "default": "%s | Deco.cx"
-        },
-        "title": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Page Title override"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Metatag description override"
-        },
-        "favicon": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
-          "description": "Recommended: 16 x 16 px",
-          "title": "Favicon"
-        }
-      },
-      "required": [
-        "page"
-      ],
-      "title": "deco-sites/std/components/seo/SEOPLP.tsx@Props"
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4@LoaderProps": {
-      "type": "object",
-      "properties": {
-        "slug": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvZnVuY3Rpb25zL3JlcXVlc3RUb1BhcmFtLnRz@RequestURLParam",
-          "title": "Slug"
-        }
-      },
-      "required": [
-        "slug"
-      ],
-      "title": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx@LoaderProps"
-    },
     "ZGVjby1jeC9kZWNvL21hdGNoZXJzL01hdGNoQ3Jvbi50cw==@CronProps": {
       "type": "object",
       "properties": {
@@ -18131,6 +18131,258 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA==": {
+      "title": "deco-sites/std/sections/Analytics.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/Analytics.tsx"
+          ],
+          "default": "deco-sites/std/sections/Analytics.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnQnV0dGVyQ01TLmdsb2JhbC50c3g=": {
+      "title": "deco-sites/std/sections/configButterCMS.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvYnV0dGVyQ01TL2NsaWVudC50cw==@ConfigButterCMS"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configButterCMS.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configButterCMS.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTGlueEltcHVsc2UuZ2xvYmFsLnRzeA==": {
+      "title": "deco-sites/std/sections/configLinxImpulse.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvcGFja3MvbGlueEltcHVsc2UvYWNjb3VudHMvbGlueEltcHVsc2UudHM=@Account"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configLinxImpulse.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configLinxImpulse.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTnV2ZW1TaG9wLnRzeA==": {
+      "title": "deco-sites/std/sections/configNuvemShop.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvbnV2ZW1TaG9wL3R5cGVzLnRz@Account"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configNuvemShop.tsx"
+          ],
+          "default": "deco-sites/std/sections/configNuvemShop.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnT0NDLmdsb2JhbC50c3g=": {
+      "title": "deco-sites/std/sections/configOCC.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2Uvb2NjL2NsaWVudC50cw==@ConfigOCC"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configOCC.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configOCC.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnU2hvcGlmeS5nbG9iYWwudHN4": {
+      "title": "deco-sites/std/sections/configShopify.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2Uvc2hvcGlmeS9jbGllbnQudHM=@ConfigShopify"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configShopify.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configShopify.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnVlRFWC5nbG9iYWwudHN4": {
+      "title": "deco-sites/std/sections/configVTEX.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvcGFja3MvdnRleC9hY2NvdW50cy92dGV4LnRz@Account"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configVTEX.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configVTEX.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnWW91clZpZXdzLmdsb2JhbC50c3g=": {
+      "title": "deco-sites/std/sections/configYourViews.global.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UveW91clZpZXdzL2NsaWVudC50cw==@ConfigYourViews"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/configYourViews.global.tsx"
+          ],
+          "default": "deco-sites/std/sections/configYourViews.global.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPLnRzeA==": {
+      "title": "deco-sites/std/sections/SEO.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vdHlwZXMudHM=@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/SEO.tsx"
+          ],
+          "default": "deco-sites/std/sections/SEO.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUERQLnRzeA==": {
+      "title": "deco-sites/std/sections/SEOPDP.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUERQLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/SEOPDP.tsx"
+          ],
+          "default": "deco-sites/std/sections/SEOPDP.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUExQLnRzeA==": {
+      "title": "deco-sites/std/sections/SEOPLP.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUExQLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/SEOPLP.tsx"
+          ],
+          "default": "deco-sites/std/sections/SEOPLP.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4": {
+      "title": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4@LoaderProps"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx"
+          ],
+          "default": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy96dWt0ZXN0c3RvcmUvc2VjdGlvbnMvQ2F0ZWdvcnkvQ2F0ZWdvcnlCYW5uZXIudHN4": {
       "title": "deco-sites/zukteststore/sections/Category/CategoryBanner.tsx",
       "type": "object",
@@ -18632,258 +18884,6 @@
             "deco-sites/zukteststore/sections/Theme/Theme.tsx"
           ],
           "default": "deco-sites/zukteststore/sections/Theme/Theme.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA==": {
-      "title": "deco-sites/std/sections/Analytics.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/Analytics.tsx"
-          ],
-          "default": "deco-sites/std/sections/Analytics.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnQnV0dGVyQ01TLmdsb2JhbC50c3g=": {
-      "title": "deco-sites/std/sections/configButterCMS.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvYnV0dGVyQ01TL2NsaWVudC50cw==@ConfigButterCMS"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configButterCMS.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configButterCMS.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTGlueEltcHVsc2UuZ2xvYmFsLnRzeA==": {
-      "title": "deco-sites/std/sections/configLinxImpulse.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvcGFja3MvbGlueEltcHVsc2UvYWNjb3VudHMvbGlueEltcHVsc2UudHM=@Account"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configLinxImpulse.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configLinxImpulse.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTnV2ZW1TaG9wLnRzeA==": {
-      "title": "deco-sites/std/sections/configNuvemShop.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvbnV2ZW1TaG9wL3R5cGVzLnRz@Account"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configNuvemShop.tsx"
-          ],
-          "default": "deco-sites/std/sections/configNuvemShop.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnT0NDLmdsb2JhbC50c3g=": {
-      "title": "deco-sites/std/sections/configOCC.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2Uvb2NjL2NsaWVudC50cw==@ConfigOCC"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configOCC.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configOCC.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnU2hvcGlmeS5nbG9iYWwudHN4": {
-      "title": "deco-sites/std/sections/configShopify.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2Uvc2hvcGlmeS9jbGllbnQudHM=@ConfigShopify"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configShopify.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configShopify.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnVlRFWC5nbG9iYWwudHN4": {
-      "title": "deco-sites/std/sections/configVTEX.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvcGFja3MvdnRleC9hY2NvdW50cy92dGV4LnRz@Account"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configVTEX.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configVTEX.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnWW91clZpZXdzLmdsb2JhbC50c3g=": {
-      "title": "deco-sites/std/sections/configYourViews.global.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UveW91clZpZXdzL2NsaWVudC50cw==@ConfigYourViews"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/configYourViews.global.tsx"
-          ],
-          "default": "deco-sites/std/sections/configYourViews.global.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPLnRzeA==": {
-      "title": "deco-sites/std/sections/SEO.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vdHlwZXMudHM=@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/SEO.tsx"
-          ],
-          "default": "deco-sites/std/sections/SEO.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUERQLnRzeA==": {
-      "title": "deco-sites/std/sections/SEOPDP.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUERQLnRzeA==@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/SEOPDP.tsx"
-          ],
-          "default": "deco-sites/std/sections/SEOPDP.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUExQLnRzeA==": {
-      "title": "deco-sites/std/sections/SEOPLP.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9zZW8vU0VPUExQLnRzeA==@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/SEOPLP.tsx"
-          ],
-          "default": "deco-sites/std/sections/SEOPLP.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4": {
-      "title": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4@LoaderProps"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx"
-          ],
-          "default": "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx"
         }
       }
     },
@@ -20036,6 +20036,42 @@
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
         },
         {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnQnV0dGVyQ01TLmdsb2JhbC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTGlueEltcHVsc2UuZ2xvYmFsLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTnV2ZW1TaG9wLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnT0NDLmdsb2JhbC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnU2hvcGlmeS5nbG9iYWwudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnVlRFWC5nbG9iYWwudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnWW91clZpZXdzLmdsb2JhbC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUERQLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUExQLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4"
+        },
+        {
           "$ref": "#/definitions/ZGVjby1zaXRlcy96dWt0ZXN0c3RvcmUvc2VjdGlvbnMvQ2F0ZWdvcnkvQ2F0ZWdvcnlCYW5uZXIudHN4"
         },
         {
@@ -20106,42 +20142,6 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy96dWt0ZXN0c3RvcmUvc2VjdGlvbnMvVGhlbWUvVGhlbWUudHN4"
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnQnV0dGVyQ01TLmdsb2JhbC50c3g="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTGlueEltcHVsc2UuZ2xvYmFsLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnTnV2ZW1TaG9wLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnT0NDLmdsb2JhbC50c3g="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnU2hvcGlmeS5nbG9iYWwudHN4"
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnVlRFWC5nbG9iYWwudHN4"
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvY29uZmlnWW91clZpZXdzLmdsb2JhbC50c3g="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUERQLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvU0VPUExQLnRzeA=="
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvVlRFWFBvcnRhbERhdGFMYXllckNvbXBhdGliaWxpdHkudHN4"
         }
       ]
     },
